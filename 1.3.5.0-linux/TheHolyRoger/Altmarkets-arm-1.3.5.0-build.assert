@@ -1,11 +1,11 @@
 --- !omap
 - out_manifest: |
-    24d6a8d22e6e184c5d29c6bb8b1f018fc6c9037af80d39b9bda571ce12923178  altmarkets-1.3.5-aarch64-linux-gnu.tar.gz
-    b14bf54e6854417af1720a2134815b77898a86f7dcfab5f0ed5e06d8bc6c1ee8  altmarkets-1.3.5-arm-linux-gnueabihf.tar.gz
-    650a13cf7cca61fe54c50a4512bc4a480b08bcad715d9536a72b2821b5f50f18  src/altmarkets-1.3.5.tar.gz
+    b70cf46ac417469a3c2ee267eb1e09b645c2f0ab3c13bc3173e8201dccbe8054  altmarkets-1.3.5-aarch64-linux-gnu.tar.gz
+    2d0f2513b8953f97e7a378b774f662fa003ac3c041c2b62ff5694d8b018aa78e  altmarkets-1.3.5-arm-linux-gnueabihf.tar.gz
+    e80fbae6323dbb5ae89ba197ebbbdde55f792e46561dff994f8d31b61d32e95c  src/altmarkets-1.3.5.tar.gz
 - in_manifest: |-
     b60087d409e846c26e92d8cba394785ff3e90772d3e331c080aa6abf84cb99fa  Altmarkets-arm-1.3.5.0-desc.yml
-    git:f2f3123824aa109b2c02aaf5f3336844769e9143 AltmarketsCoin
+    git:ee8546a0e8f69ba8cd66661853559595ada79e67 AltmarketsCoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -589,30 +589,30 @@
     054d4ee3efd52508c753e9f7bc655ef185a29bd2850dd9e2fc2ccc33544f583a  xtrans-1.3.4.tar.bz2
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
-    1619984df169634f5ef070b5094f3f58b09fa31a4c1f230ec47cb5a25beaefa0  aarch64-linux-gnu/bdb/bdb-4.8.30-864a87540b7.tar.gz
-    4a876958ba24d00e420b025f8c9cadb25010858d759763e8e4d1c11ea70347b7  aarch64-linux-gnu/bdb/bdb-4.8.30-864a87540b7.tar.gz.hash
-    1508ba76534ce2415e8f83f49392fcc23928f91034545c833335fcc63ca5f2de  aarch64-linux-gnu/boost/boost-1_63_0-4bf6a0427f1.tar.gz
-    09ce3292e5cd572ced5ecb5efaecf94d31e584650f6ba16a59245cbd260733ea  aarch64-linux-gnu/boost/boost-1_63_0-4bf6a0427f1.tar.gz.hash
-    5a33a9cd35e3b1bb9115e567a811551461e4be3000af8799407a50d0dfac4bb1  aarch64-linux-gnu/libevent/libevent-2.1.7-8e96970772e.tar.gz
-    e74e0c5a7b357a8d03cb354aac73129afb17db5f5ed3cb70b3ee1461ed0cf7c9  aarch64-linux-gnu/libevent/libevent-2.1.7-8e96970772e.tar.gz.hash
-    6d37c03682a6dcba7c03b66370d497c069a80f8588d5002894fe10c1d67c3e55  aarch64-linux-gnu/miniupnpc/miniupnpc-2.0-30b82f324e6.tar.gz
-    b481d5661c935cb02f94884465e315f28636f5697faf64c8486d0448d483eabd  aarch64-linux-gnu/miniupnpc/miniupnpc-2.0-30b82f324e6.tar.gz.hash
+    dc3ef9b387a40aac66ac17f9835cedcbf824c5d1f7be7934ec854cf3a80c7f87  aarch64-linux-gnu/bdb/bdb-4.8.30-864a87540b7.tar.gz
+    287fdef59733cf21bb521c9865df21c8f5d7be9ac85c80aea59f5637bed0edcb  aarch64-linux-gnu/bdb/bdb-4.8.30-864a87540b7.tar.gz.hash
+    ac2bec0e1194793686de413e65e4a4dea28b5f3f6f9cfdd230d11ff9a5480db4  aarch64-linux-gnu/boost/boost-1_63_0-4bf6a0427f1.tar.gz
+    78189bd39ae2ec54533a412eb1eb40a54d1baba22d521a39b6b1cbb5a56d897e  aarch64-linux-gnu/boost/boost-1_63_0-4bf6a0427f1.tar.gz.hash
+    e4370dcfa8c22bd135753e3066503866d5de9ed638c11ca02fca6e479f3c7e46  aarch64-linux-gnu/libevent/libevent-2.1.7-8e96970772e.tar.gz
+    de9f705682e150aa274cd2bf552557ba9522f9b34eae5bc2decd89b8ef777c3a  aarch64-linux-gnu/libevent/libevent-2.1.7-8e96970772e.tar.gz.hash
+    0747687865a89a29632c6d6877ac6aa555384c895d4df419b1223e183abdb094  aarch64-linux-gnu/miniupnpc/miniupnpc-2.0-30b82f324e6.tar.gz
+    1a220220ce55b86a197676f1c4afea54d601fb323a24605b8a703f9d9ca89f75  aarch64-linux-gnu/miniupnpc/miniupnpc-2.0-30b82f324e6.tar.gz.hash
     3d682a4a2368afd4db5a9ad9ab4a8ab371910185707363391971be727233e0ef  aarch64-linux-gnu/native_ccache/native_ccache-3.3.3-fd593ae69c5.tar.gz
     a6392c86733b5a3fa84fc43b2978060bba5b014eff8a947dbd590c48cf9ce8e5  aarch64-linux-gnu/native_ccache/native_ccache-3.3.3-fd593ae69c5.tar.gz.hash
-    3f7d6da9ec1857cc92d902a600c5b2309cd76d6d5e23edb0a9b235af0f5e7d04  aarch64-linux-gnu/openssl/openssl-1.0.1k-586fbb4ef55.tar.gz
-    932a4a9fd5c835305778b9983bc55b72a04b056e33de1abb44701dfc29327818  aarch64-linux-gnu/openssl/openssl-1.0.1k-586fbb4ef55.tar.gz.hash
-    855fed4460d4c5dadaba9b26acb17f7ec21a021b956e561034dc6ef8892df232  arm-linux-gnueabihf/bdb/bdb-4.8.30-4f5a65b100a.tar.gz
-    9d7e23a7c90f8f9c0f10eb66c0d2fec04a322973526d599d2dd511d3043a3ad2  arm-linux-gnueabihf/bdb/bdb-4.8.30-4f5a65b100a.tar.gz.hash
-    66ae31bf8178e381d1e532dbfa2abd7fa3706fb9162c1dcd0db16758e070447d  arm-linux-gnueabihf/boost/boost-1_63_0-124149a3a03.tar.gz
-    4ce4b2e20f26233c4b46a9c855015ff293102b97d40e9248c72b5f216075aa5d  arm-linux-gnueabihf/boost/boost-1_63_0-124149a3a03.tar.gz.hash
-    84e0520720c0bf60f0ecb368abb81172e54c6e701e27a3131f8b7c5087cb9498  arm-linux-gnueabihf/libevent/libevent-2.1.7-d7e153bac58.tar.gz
-    8fb7754ed40178638ed4471f801c07d6bb890e5f1d8cea97626da8f7452982ac  arm-linux-gnueabihf/libevent/libevent-2.1.7-d7e153bac58.tar.gz.hash
-    5f62dd65e45cae2e42e145ef0efe3c8e113bd6664ed27ac8fd679152d8a1c6ba  arm-linux-gnueabihf/miniupnpc/miniupnpc-2.0-7799df2bf49.tar.gz
-    03ca7325ab1d90a0dab8d0b939f011c40a96aa9e72c3b0fe68afb1bb4e55e640  arm-linux-gnueabihf/miniupnpc/miniupnpc-2.0-7799df2bf49.tar.gz.hash
+    8ac41c42f787fed6b22ba063c4c503f6ba51fb99f8f726b164adb23571131515  aarch64-linux-gnu/openssl/openssl-1.0.1k-586fbb4ef55.tar.gz
+    92a655e7eb4f4bfa09a8b05e0cec5a58bfba0dca4e7cd4c7a1e3a2171aa32556  aarch64-linux-gnu/openssl/openssl-1.0.1k-586fbb4ef55.tar.gz.hash
+    f3a37a2acb9eab6f00ff1067d80f810ef872d68bfc76b2494691b541bdef0217  arm-linux-gnueabihf/bdb/bdb-4.8.30-4f5a65b100a.tar.gz
+    3b450ca4e26148fcafb34e5aa299d427746d18ee3e5b59f8fdb00fb59328eb22  arm-linux-gnueabihf/bdb/bdb-4.8.30-4f5a65b100a.tar.gz.hash
+    f3f785868dfd6ab1ceba5a66a04cb51d01bb344d5dc1302af3a65cc5deff7580  arm-linux-gnueabihf/boost/boost-1_63_0-124149a3a03.tar.gz
+    4170931111c6142b3e3f41481ebb89f20fcdfc9002fadb2029b64fe703459712  arm-linux-gnueabihf/boost/boost-1_63_0-124149a3a03.tar.gz.hash
+    5f547498bac4183c363fb19199999f04e9fb1231cc02edd6d298a372c0e3d635  arm-linux-gnueabihf/libevent/libevent-2.1.7-d7e153bac58.tar.gz
+    528be532743a07976a4e81f3273924ec8862b972fda3378738f121e8f3010666  arm-linux-gnueabihf/libevent/libevent-2.1.7-d7e153bac58.tar.gz.hash
+    0c75d0ae6e85bb4112a97428c1c61f4e737ba03c22583f44cf65faf1e2e4d2dd  arm-linux-gnueabihf/miniupnpc/miniupnpc-2.0-7799df2bf49.tar.gz
+    042e9f7547aaa950035599cc167d272500c6f838155f980957fd79e8914b29d6  arm-linux-gnueabihf/miniupnpc/miniupnpc-2.0-7799df2bf49.tar.gz.hash
     d4d1b5dc7ba5870929956653d35996a7d4155b51f0b8774d63cd0d3a328828f1  arm-linux-gnueabihf/native_ccache/native_ccache-3.3.3-fd593ae69c5.tar.gz
     feeb094a71841b0c511f5e23cc08da4d8ca736facd6d4ce1927e4c82a7db5031  arm-linux-gnueabihf/native_ccache/native_ccache-3.3.3-fd593ae69c5.tar.gz.hash
-    4c44a7ec37d9c330e2e5553dade9719d0d65b3e40faf8cc753bc2feccda71ba8  arm-linux-gnueabihf/openssl/openssl-1.0.1k-373ee3f8ee1.tar.gz
-    fd0e094aa1f8993ee7265868fa7497e6b029e32a56a592885a52b78edb5b417b  arm-linux-gnueabihf/openssl/openssl-1.0.1k-373ee3f8ee1.tar.gz.hash
+    cdbcc6c05c30600fdc3bad8c2442072d2e644d7ebf769feb5f767ad868b4bb1e  arm-linux-gnueabihf/openssl/openssl-1.0.1k-373ee3f8ee1.tar.gz
+    0d7a5296e15804ddf09a96a877168bd95a0ffcd1eb90e6e040d7edbacad3018b  arm-linux-gnueabihf/openssl/openssl-1.0.1k-373ee3f8ee1.tar.gz.hash
 - release: 1.3.5.0-linux
 - name: Altmarkets-arm-1.3.5.0
 - type: build

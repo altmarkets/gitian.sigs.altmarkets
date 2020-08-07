@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    ee8e8b4297a2693a414522346ec4bcc7a1e19dd4350cbdad3c6934263f3c6f04  altmarkets-1.3.5-osx-unsigned.dmg
-    a8fa079be3c7f2284ae3b6f802b9d2784115b4f743bc597ebed3c213d4d313e6  altmarkets-1.3.5-osx-unsigned.tar.gz
-    7f882b8ee750ec152d68cefe70f70e5ef1aee978f178ed91030e2b21d4f2bca5  altmarkets-1.3.5-osx64.tar.gz
-    650a13cf7cca61fe54c50a4512bc4a480b08bcad715d9536a72b2821b5f50f18  src/altmarkets-1.3.5.tar.gz
+    ca682308a8ee7f71a2e5a44809fa061039191ebcda80c90c4ce1e4f27c97c8ac  altmarkets-1.3.5-osx-unsigned.dmg
+    060e4e932239466e40d89fc0263e0eb5d82c1dc1b4033e871a063767b57e1031  altmarkets-1.3.5-osx-unsigned.tar.gz
+    3d551984b531fb95a627db94ba5d382b97a4c86c037ada48fe0a4237523f864d  altmarkets-1.3.5-osx64.tar.gz
+    e80fbae6323dbb5ae89ba197ebbbdde55f792e46561dff994f8d31b61d32e95c  src/altmarkets-1.3.5.tar.gz
 - in_manifest: |-
     e7735910c1accf9d431d299e191e3bad8adb97d39aff0a31d390c593e8bf7250  Altmarkets-osx-1.3.5.0-desc.yml
     fe5b5723310fe7e0abffac0e1550e42c6ccd0d9c860673410703224442793ab2  MacOSX10.11.sdk.tar.gz
-    git:f2f3123824aa109b2c02aaf5f3336844769e9143 AltmarketsCoin
+    git:ee8546a0e8f69ba8cd66661853559595ada79e67 AltmarketsCoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -613,20 +613,20 @@
     c34d80047dd0c8fc186ff1691680c335d43d69085e1a8bc37be687ab38f75b68  x86_64-apple-darwin11/libevent/libevent-2.1.7-cd1f6b0ed8d.tar.gz.hash
     4d75bc573c86c6265ebce0b1f21f9e590133ba4a52019cbc3b1edae054b0980e  x86_64-apple-darwin11/miniupnpc/miniupnpc-2.0-8236a53ca23.tar.gz
     9dfa062b7d7af9577571ed6d4893dd470ec444237364f1ddbb46b7d648a29ec7  x86_64-apple-darwin11/miniupnpc/miniupnpc-2.0-8236a53ca23.tar.gz.hash
-    6b825e7e54df7de5ed568bb4891fc1e1829fce409a2b6467e97afaaf348c19af  x86_64-apple-darwin11/native_biplist/native_biplist-0.9-0108842403e.tar.gz
-    11dae392ddc804b1965a573e956a81ddc3389eff4e3408c8ed8d0fb0263b036a  x86_64-apple-darwin11/native_biplist/native_biplist-0.9-0108842403e.tar.gz.hash
+    b860ff7bd34ccd53fc3de9cb63204f418fe37c0490fa8e528f504a3af6fa938f  x86_64-apple-darwin11/native_biplist/native_biplist-0.9-0108842403e.tar.gz
+    74e9e1b3db61373667aaad94ab7da27fb7535b45cd587a0ff3f51dbfc06b0efe  x86_64-apple-darwin11/native_biplist/native_biplist-0.9-0108842403e.tar.gz.hash
     5b7fb3b210fdd9b7526b9e6c50fdd7ce2db2a0740bc1da9ecdd19abda5e9bde4  x86_64-apple-darwin11/native_ccache/native_ccache-3.3.3-b91c8a39fe0.tar.gz
     aca576719c202f903556e8274c091a4710dd31d2b3a460c5734d9221bc0133f2  x86_64-apple-darwin11/native_ccache/native_ccache-3.3.3-b91c8a39fe0.tar.gz.hash
-    cb8b10bcd13139bd4d62003678b554c653cde51bbf62f44327b6b0eb6f352b37  x86_64-apple-darwin11/native_cctools/native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6-638037369b6.tar.gz
-    2cde4a4eea9c1e0b7725b918266072e7de1571ba5fb233d1c26082989be52e3c  x86_64-apple-darwin11/native_cctools/native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6-638037369b6.tar.gz.hash
+    0b2e341f1d228d709d967a27f4ef6322c7e913d2c5a35e9a08f594c5e06e09da  x86_64-apple-darwin11/native_cctools/native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6-638037369b6.tar.gz
+    0ca4e2649a4bb5a0defb906bc7b7ed9d49403664439129cc3ad3d4c6c985146f  x86_64-apple-darwin11/native_cctools/native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6-638037369b6.tar.gz.hash
     c0a8609d31cbe31eeac4311bc067702d6f211fc46d80c64cbabc9f61d81fbccc  x86_64-apple-darwin11/native_cdrkit/native_cdrkit-1.1.11-fc9ef49caa9.tar.gz
     b96597fd44dfe286851db0b458f3c5906c83545f7c7e23def08d56b947634a35  x86_64-apple-darwin11/native_cdrkit/native_cdrkit-1.1.11-fc9ef49caa9.tar.gz.hash
     5c83f11aee8d8758bb44d8b16242e2b8f9fac09079dac35bf532c382f25c63b2  x86_64-apple-darwin11/native_ds_store/native_ds_store-1.1.0-26045fe2194.tar.gz
     c0740d1eb5d66e093ba1af4169618f341ca5f7ea39e33ebc31e3a7b79ec58925  x86_64-apple-darwin11/native_ds_store/native_ds_store-1.1.0-26045fe2194.tar.gz.hash
     55818988f5d4f8a57b0bd95d6475a702113b758dc5143d98036557debf2a8feb  x86_64-apple-darwin11/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-879aa9b2536.tar.gz
     0c697b053de0d6eddb50e73266d6b1491bdb05925640e44be4e15903187c3bfb  x86_64-apple-darwin11/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-879aa9b2536.tar.gz.hash
-    ab078d0cba4cf6b7c9716dd8032faf5b1698055cb8807a18642e9a9cb2a4edcc  x86_64-apple-darwin11/native_mac_alias/native_mac_alias-1.1.0-4476ccb42d4.tar.gz
-    13628c7888fe21578c86bede41f637ebbe7d8bfabba814b8dd3e1f278fe83d06  x86_64-apple-darwin11/native_mac_alias/native_mac_alias-1.1.0-4476ccb42d4.tar.gz.hash
+    ed5a11b9a391640428d719b629a17e2352d725796d1b90d735a3938f82977edf  x86_64-apple-darwin11/native_mac_alias/native_mac_alias-1.1.0-4476ccb42d4.tar.gz
+    9bba8d66a1aef5b67949e56806dedfdbe5f46bff81c66b1f446489c73c3cdd9e  x86_64-apple-darwin11/native_mac_alias/native_mac_alias-1.1.0-4476ccb42d4.tar.gz.hash
     233c4bcb6b6590b7275280a3aac1c8883b08e2bf81d61df2771c5fc6cf2cc355  x86_64-apple-darwin11/native_protobuf/native_protobuf-2.6.1-0a07dca0571.tar.gz
     3095967616ce1ed6c77491d4bac0139aff909da7a26b9c708c0978732f9311e4  x86_64-apple-darwin11/native_protobuf/native_protobuf-2.6.1-0a07dca0571.tar.gz.hash
     134085bb05fa8451e652955a4851d1843cadb07a3b56ecb409d2472da59b261a  x86_64-apple-darwin11/openssl/openssl-1.0.1k-d86a458fbb6.tar.gz

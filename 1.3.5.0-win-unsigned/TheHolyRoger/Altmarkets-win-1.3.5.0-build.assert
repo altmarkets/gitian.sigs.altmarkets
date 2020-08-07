@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    6ac89f80838c3235f08335df190800d3045c9d86dd306e60c0f8eaa114f4b9c6  Altmarkets-1.3.5-win32-setup.exe
-    7c373582e02c3f0869d26ec26f1dd83d5174de158b7650324583be77931113b9  Altmarkets-1.3.5-win64-setup.exe
-    ef6d3641c6795f99e0fed92d73a9c52f75d4fe75c7473ac754ebede760b37d6a  altmarkets-1.3.5-win32.zip
-    d3844f41689785136b9d34c26cf72edbdfc1d36e122859dda1b3243efa0d73de  altmarkets-1.3.5-win64.zip
-    650a13cf7cca61fe54c50a4512bc4a480b08bcad715d9536a72b2821b5f50f18  src/altmarkets-1.3.5.tar.gz
+    b5a36643086cbe1472db21868fb9474ef1b9f032fea89d812e8f557579d597dd  Altmarkets-1.3.5-win32-setup.exe
+    5a28f255b065748e4ee439d0063d69755bcbbae8995dfaa1c6280adabf8a977d  Altmarkets-1.3.5-win64-setup.exe
+    ad7a01da1a8a0efd695697592c1a49675c3dcaf74e129761df91890fce75ff54  altmarkets-1.3.5-win32.zip
+    5333dd362504458f523c0c17b6cbc12b25a05a0faf5f8d3f995e00a91e97d4ce  altmarkets-1.3.5-win64.zip
+    e80fbae6323dbb5ae89ba197ebbbdde55f792e46561dff994f8d31b61d32e95c  src/altmarkets-1.3.5.tar.gz
 - in_manifest: |-
     9f68e6dfa0b980c69659719cf315aba50f277d6534990ca93953d5dffefa8a29  Altmarkets-win-1.3.5.0-desc.yml
-    git:f2f3123824aa109b2c02aaf5f3336844769e9143 AltmarketsCoin
+    git:ee8546a0e8f69ba8cd66661853559595ada79e67 AltmarketsCoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb

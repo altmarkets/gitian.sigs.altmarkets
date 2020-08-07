@@ -1,11 +1,11 @@
 --- !omap
 - out_manifest: |
-    0950eb4b9527f34d96bf8c088bbd1bd370e282fa11b4f64ee12aa4e75fe8aea9  altmarkets-1.3.5-linux32.tar.gz
-    fbb893c56fc424eba1f6eb21fae1f97c5f60e98b58551b8afb397c0c905c66c2  altmarkets-1.3.5-linux64.tar.gz
-    650a13cf7cca61fe54c50a4512bc4a480b08bcad715d9536a72b2821b5f50f18  src/altmarkets-1.3.5.tar.gz
+    a4a9047a52347ac645f5d65d8506e304cb3f37b71c3279349db73f0374a7f098  altmarkets-1.3.5-linux32.tar.gz
+    a8fe8bf7c0e3b45416a21e25748a6b2bcc6288ea6956f784ba8c208dd0a41f4b  altmarkets-1.3.5-linux64.tar.gz
+    e80fbae6323dbb5ae89ba197ebbbdde55f792e46561dff994f8d31b61d32e95c  src/altmarkets-1.3.5.tar.gz
 - in_manifest: |-
     2dc78a6340a0098e6a950781fc7a5ea3cb6d64f068db0a5dd33104654f0a01d6  Altmarkets-linux-1.3.5.0-desc.yml
-    git:f2f3123824aa109b2c02aaf5f3336844769e9143 AltmarketsCoin
+    git:ee8546a0e8f69ba8cd66661853559595ada79e67 AltmarketsCoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
